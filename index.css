@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(14,45,239);
+background: linear-gradient(0deg, rgba(14,45,239,1) 6%, rgba(8,34,174,1) 72%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+.container .box{
+    display: flex;
+    width: 800px;
+    padding: 30px;
+
+}
+form h2{
+    padding: 20px 0;
+}
+.container h1{
+    text-align: center;
+    font-size: 3rem;
+    color: orange;
+}
+.container .aside{
+    width: 50%;
+    background-color:midnightblue;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+}
+.aside img{
+    border-radius: 50%;
+    border: 8px solid rgb(2, 2, 36);
+    margin: auto;
+}
+.container form{
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(3, 15, 65);
+    box-shadow: 0 0 25px rgb(26, 25, 25);
+}
+form input{
+    width: 90%;
+    margin:5px 0 20px 0;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(206, 200, 200);
+    border: none;
+    outline: none;
+}
+form label{
+    font-weight: bold;
+}
+#signIn{
+    background-color: rgb(239, 157, 5);
+    width: 100%;
+    border-radius: 20px;
+    /* background-color: rgb(206, 200, 200); */
+    border: none;
+    outline: none;
+    margin:5px 0 5px 0;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+form a{
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    color: white;
+}
+h3{
+    font-size: 2.2rem;
+    padding: 10px;
+}
+.aside a{
+    background-color: transparent;
+    border: 2px solid orange;
+    text-decoration: none;
+    color:orange;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 30px;
+    display: inline;
+    padding: 15px 25px;
+    width: fit-content;
+    margin: 20px 0 0 90px;
+    
+}

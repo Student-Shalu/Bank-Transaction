@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <nav>
+        <h1>Your Dashboard</h1>
+        <h2>Total Balance ₹<span id="total">00.00</span></h2>
+        <a href="index.html">Sign Out</a>
+    </nav>
+    <div class="container">
+        <h2 id="welcome-message">Welcome</h2>
+    </div>
+    <div class="main">
+        <div class="box">
+            <h4>Total Deposit</h4>
+            <span>₹ <span id="dep">000</span></span>
+        </div>
+        <div class="box">
+            <h4>Total Withdraw</h4>
+            <span>₹ <span id="with">000</span></span>
+        </div>
+        <div class="box">
+            <h4>Total Balance</h4>
+            <span>₹<span id="total-balance">000</span></span>
+        </div>
+    </div>
+    <div class="last">
+        <div class="box">
+            <h4>Deposit</h4>
+            <input type="number" name="" id="deposit" placeholder="Deposit Amount"><br>
+            <button onclick="addDeposit()">Deposit</button>
+        </div>
+        <div class="box">
+            <h4>Withdraw</h4>
+            <input type="number" name="" id="withdraw" placeholder="Withdraw Amount"><br>
+            <button onclick="addWithdraw()">Withdraw</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
